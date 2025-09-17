@@ -1,0 +1,242 @@
+*{
+  font-family: "Inter", sans-serif;
+  background-color:#0D0D0D;
+  color: white;
+  /* background-color: rgb(230, 221, 221); */
+}
+.container {
+  margin: 0 !important;
+  padding: 0 15px; /* Keep some padding if needed */
+  max-width: 100% !important;
+}
+
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+  color:#00FCDB
+}
+.nav-item a:visited {
+  color: white;
+}
+
+.nav-item a:active {
+  color: #00FCDB; 
+} 
+.navbar button{
+  color: white;
+}
+.btnlock{
+  padding: 5px 18px;
+  border-radius: 10px;
+  font-size: 16px;
+  border-color: white;
+}
+
+.btnsearch{
+  padding: 5px 18px;
+  border: none;
+}
+.onlyMobile i {
+  font-size: 23px; /* Adjust the font size to make the icon larger */
+  width: 23px; /* Set the width to 23px */
+  height: 23px; /* Set the height to 23px */
+  display: inline-block; /* Ensure proper alignment */
+  line-height: 23px; /* Center the icon vertically if needed */
+}
+.sectionBtn{
+  background-color: #3500FC;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+  
+}
+.sectionBtn img{
+  background-color: #3500FC;
+}
+.sectionBtn i{
+  color: white;
+}
+section .btnMargin{
+  margin-top: 180px;
+}
+.sectionBtn1{
+  background-color: #3500FC;
+  color: white;  
+  border: none;
+  width: 181px;
+  height: 60px;
+}
+.btnMargin h3{
+  font-size: 50px;
+  font-weight: 700;
+}
+.btnMargin p{
+  font-size: 20px; 
+}
+.section2 h3{
+  color: #00FCDB;
+  text-align: center;
+  font-size: 15px;
+}
+.section2  p{
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+ 
+}
+/* Optional: slim, custom-colored scrollbar */
+.scroll-wrapper {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.4) transparent;
+}
+
+.scroll-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scroll-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 3px;
+}
+
+.scroll-wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+.section3 h3{
+  color: #00FCDB;
+  font-size: 15px;
+  text-align: center;
+}
+.section3 p{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.section3Img {
+  /* background-color: #000000 !important;
+  color: #FFFFFF !important; */
+  background-color: black;
+  /* color: white; Ensures text is visible on a black background */
+  padding: 20px; /* Optional: Adds spacing inside the card */
+  border-radius: 10px; 
+
+}
+.section3Img h3{
+  color: #FFFFFF;
+  background-color: black;
+}
+
+.section3Img p{
+  color: #A8ACB7 !important;
+  background-color: black;
+}
+.section4Btn{
+  color: #FFFFFF;
+  background-color:#3500FC;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+/* .section5margin{
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important; 
+} */
+.section5Btn{ 
+  background-color: #0D0D0D !important; 
+  color: #A8ACB7 !important;
+  margin-right: 40px !important;
+ 
+}
+.section5Btn:hover{
+  color: #00FCDB !important;
+  border-bottom: 2px solid #00FCDB !important;
+  border-radius: 0px !important;
+}
+.section5Btn:active{
+  border-bottom: 2px solid #00FCDB !important;
+  border-radius: 0px !important;
+}
+.box ,.box1{
+  /* height: 324px; */
+  width: 450px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  height: 100%; /* Important to allow full height */
+  overflow: visible; /* Ensure nothing gets clipped */
+}
+.box{
+  margin-left: 180px;
+}
+.section6ul{
+     list-style-type: none;
+}
+.section6ul li{
+  display: flex;
+  align-items: center !important;
+  color: #A8ACB7 !important;
+  font-size: 12px;
+  margin-left: 140px;
+  line-height: 20px;
+}
+ .section6ul li img {
+  margin-right: 10px;
+ }
+.section6btn{
+  border: none;
+  border-radius: 5px;
+  background-color:#3500FC;
+  color: white;
+  padding: 10px 25px;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 10px
+  ;
+}
+.section8box{
+  height: 200;
+  width: 300;
+  border: 2px solid blue;
+}  
+.box-section10{
+  width: 300px;
+  background-color: #000000; /* Or black */
+  border-radius: 10px;
+  overflow: hidden; /* Ensures child elements respect border-radius */
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.5); /* Optional for nicer look */
+}
+.box-section10 p {
+  margin-bottom: 0; /* removes default spacing */
+  padding-bottom: 16px; /* or any space you want */
+  background-color: black;
+}
+.boxMargin1{
+  margin-left: 118px;
+}
+.boxMargin2{
+  margin-left: -118px;
+}  
+ footer{
+  background-color: black !important;
+ }
+ .secInput{
+  border: none;
+  padding: 25px 40px;
+  font-size: 15px;
+  border-radius: 5px;
+  
+ }
+
+.footerBtn{
+  border: none;
+  background-color:#3500FC ;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 40px;
+  font-size: 15px;
+}
+footerColmargin, .col{
+margin-right: 51px;
+}
